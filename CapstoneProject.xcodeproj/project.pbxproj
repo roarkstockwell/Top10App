@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F80BB0AF1B7A686500A69C34 /* ListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F80BB0AE1B7A686500A69C34 /* ListsViewController.m */; };
+		F81A8CBB1B7E56D00041A7F8 /* InnerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F81A8CBA1B7E56D00041A7F8 /* InnerListViewController.m */; };
 		F85CA8921B7009E300308E57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F85CA8911B7009E300308E57 /* main.m */; };
 		F85CA8951B7009E300308E57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F85CA8941B7009E300308E57 /* AppDelegate.m */; };
 		F85CA8981B7009E300308E57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85CA8971B7009E300308E57 /* ViewController.m */; };
@@ -14,6 +16,11 @@
 		F85CA89D1B7009E400308E57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85CA89C1B7009E400308E57 /* Images.xcassets */; };
 		F85CA8A01B7009E400308E57 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F85CA89E1B7009E400308E57 /* LaunchScreen.xib */; };
 		F85CA8AC1B7009E400308E57 /* CapstoneProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F85CA8AB1B7009E400308E57 /* CapstoneProjectTests.m */; };
+		F898A78A1B711408005FC527 /* CategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F898A7891B711408005FC527 /* CategoriesViewController.m */; };
+		F898A78D1B711445005FC527 /* CreateListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F898A78C1B711445005FC527 /* CreateListViewController.m */; };
+		F898A7901B71145D005FC527 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F898A78F1B71145D005FC527 /* ActivityViewController.m */; };
+		F898A7931B71147D005FC527 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F898A7921B71147D005FC527 /* ProfileViewController.m */; };
+		F898A7961B71149F005FC527 /* ProfileSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F898A7951B71149F005FC527 /* ProfileSettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F80BB0AD1B7A686500A69C34 /* ListsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListsViewController.h; sourceTree = "<group>"; };
+		F80BB0AE1B7A686500A69C34 /* ListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListsViewController.m; sourceTree = "<group>"; };
+		F81A8CB91B7E56D00041A7F8 /* InnerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnerListViewController.h; sourceTree = "<group>"; };
+		F81A8CBA1B7E56D00041A7F8 /* InnerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnerListViewController.m; sourceTree = "<group>"; };
 		F85CA88C1B7009E300308E57 /* CapstoneProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapstoneProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85CA8901B7009E300308E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F85CA8911B7009E300308E57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +51,16 @@
 		F85CA8A51B7009E400308E57 /* CapstoneProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapstoneProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85CA8AA1B7009E400308E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F85CA8AB1B7009E400308E57 /* CapstoneProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CapstoneProjectTests.m; sourceTree = "<group>"; };
+		F898A7881B711408005FC527 /* CategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesViewController.h; sourceTree = "<group>"; };
+		F898A7891B711408005FC527 /* CategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesViewController.m; sourceTree = "<group>"; };
+		F898A78B1B711445005FC527 /* CreateListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateListViewController.h; sourceTree = "<group>"; };
+		F898A78C1B711445005FC527 /* CreateListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateListViewController.m; sourceTree = "<group>"; };
+		F898A78E1B71145D005FC527 /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		F898A78F1B71145D005FC527 /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		F898A7911B71147D005FC527 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		F898A7921B71147D005FC527 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		F898A7941B71149F005FC527 /* ProfileSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileSettingsViewController.h; sourceTree = "<group>"; };
+		F898A7951B71149F005FC527 /* ProfileSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileSettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +81,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F80BB0741B7A57A600A69C34 /* CategoriesPage */ = {
+			isa = PBXGroup;
+			children = (
+				F898A7881B711408005FC527 /* CategoriesViewController.h */,
+				F898A7891B711408005FC527 /* CategoriesViewController.m */,
+				F80BB0AD1B7A686500A69C34 /* ListsViewController.h */,
+				F80BB0AE1B7A686500A69C34 /* ListsViewController.m */,
+				F81A8CB91B7E56D00041A7F8 /* InnerListViewController.h */,
+				F81A8CBA1B7E56D00041A7F8 /* InnerListViewController.m */,
+			);
+			name = CategoriesPage;
+			sourceTree = "<group>";
+		};
+		F80BB0751B7A583000A69C34 /* CreateListPage */ = {
+			isa = PBXGroup;
+			children = (
+				F898A78B1B711445005FC527 /* CreateListViewController.h */,
+				F898A78C1B711445005FC527 /* CreateListViewController.m */,
+			);
+			name = CreateListPage;
+			sourceTree = "<group>";
+		};
+		F80BB0761B7A584D00A69C34 /* ActivityPage */ = {
+			isa = PBXGroup;
+			children = (
+				F898A78E1B71145D005FC527 /* ActivityViewController.h */,
+				F898A78F1B71145D005FC527 /* ActivityViewController.m */,
+			);
+			name = ActivityPage;
+			sourceTree = "<group>";
+		};
+		F80BB0A91B7A58D100A69C34 /* ProfilePage */ = {
+			isa = PBXGroup;
+			children = (
+				F898A7941B71149F005FC527 /* ProfileSettingsViewController.h */,
+				F898A7951B71149F005FC527 /* ProfileSettingsViewController.m */,
+				F898A7911B71147D005FC527 /* ProfileViewController.h */,
+				F898A7921B71147D005FC527 /* ProfileViewController.m */,
+			);
+			name = ProfilePage;
+			sourceTree = "<group>";
+		};
 		F85CA8831B7009E300308E57 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +148,10 @@
 				F85CA8941B7009E300308E57 /* AppDelegate.m */,
 				F85CA8961B7009E300308E57 /* ViewController.h */,
 				F85CA8971B7009E300308E57 /* ViewController.m */,
+				F80BB0741B7A57A600A69C34 /* CategoriesPage */,
+				F80BB0761B7A584D00A69C34 /* ActivityPage */,
+				F80BB0751B7A583000A69C34 /* CreateListPage */,
+				F80BB0A91B7A58D100A69C34 /* ProfilePage */,
 				F85CA8991B7009E300308E57 /* Main.storyboard */,
 				F85CA89C1B7009E400308E57 /* Images.xcassets */,
 				F85CA89E1B7009E400308E57 /* LaunchScreen.xib */,
@@ -221,7 +288,14 @@
 			files = (
 				F85CA8981B7009E300308E57 /* ViewController.m in Sources */,
 				F85CA8951B7009E300308E57 /* AppDelegate.m in Sources */,
+				F898A7931B71147D005FC527 /* ProfileViewController.m in Sources */,
+				F898A78D1B711445005FC527 /* CreateListViewController.m in Sources */,
+				F898A78A1B711408005FC527 /* CategoriesViewController.m in Sources */,
+				F898A7901B71145D005FC527 /* ActivityViewController.m in Sources */,
+				F898A7961B71149F005FC527 /* ProfileSettingsViewController.m in Sources */,
 				F85CA8921B7009E300308E57 /* main.m in Sources */,
+				F80BB0AF1B7A686500A69C34 /* ListsViewController.m in Sources */,
+				F81A8CBB1B7E56D00041A7F8 /* InnerListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +490,7 @@
 				F85CA8B11B7009E400308E57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F85CA8B21B7009E400308E57 /* Build configuration list for PBXNativeTarget "CapstoneProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +499,7 @@
 				F85CA8B41B7009E400308E57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
