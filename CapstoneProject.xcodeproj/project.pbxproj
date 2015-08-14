@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F80BB0AF1B7A686500A69C34 /* ListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F80BB0AE1B7A686500A69C34 /* ListsViewController.m */; };
 		F81A8CBB1B7E56D00041A7F8 /* InnerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F81A8CBA1B7E56D00041A7F8 /* InnerListViewController.m */; };
+		F81A8CBE1B7E57C20041A7F8 /* InnerCreateListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F81A8CBD1B7E57C20041A7F8 /* InnerCreateListViewController.m */; };
 		F85CA8921B7009E300308E57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F85CA8911B7009E300308E57 /* main.m */; };
 		F85CA8951B7009E300308E57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F85CA8941B7009E300308E57 /* AppDelegate.m */; };
 		F85CA8981B7009E300308E57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85CA8971B7009E300308E57 /* ViewController.m */; };
@@ -38,6 +39,8 @@
 		F80BB0AE1B7A686500A69C34 /* ListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListsViewController.m; sourceTree = "<group>"; };
 		F81A8CB91B7E56D00041A7F8 /* InnerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnerListViewController.h; sourceTree = "<group>"; };
 		F81A8CBA1B7E56D00041A7F8 /* InnerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnerListViewController.m; sourceTree = "<group>"; };
+		F81A8CBC1B7E57C20041A7F8 /* InnerCreateListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnerCreateListViewController.h; sourceTree = "<group>"; };
+		F81A8CBD1B7E57C20041A7F8 /* InnerCreateListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnerCreateListViewController.m; sourceTree = "<group>"; };
 		F85CA88C1B7009E300308E57 /* CapstoneProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapstoneProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85CA8901B7009E300308E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F85CA8911B7009E300308E57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -99,6 +102,8 @@
 			children = (
 				F898A78B1B711445005FC527 /* CreateListViewController.h */,
 				F898A78C1B711445005FC527 /* CreateListViewController.m */,
+				F81A8CBC1B7E57C20041A7F8 /* InnerCreateListViewController.h */,
+				F81A8CBD1B7E57C20041A7F8 /* InnerCreateListViewController.m */,
 			);
 			name = CreateListPage;
 			sourceTree = "<group>";
@@ -115,10 +120,10 @@
 		F80BB0A91B7A58D100A69C34 /* ProfilePage */ = {
 			isa = PBXGroup;
 			children = (
-				F898A7941B71149F005FC527 /* ProfileSettingsViewController.h */,
-				F898A7951B71149F005FC527 /* ProfileSettingsViewController.m */,
 				F898A7911B71147D005FC527 /* ProfileViewController.h */,
 				F898A7921B71147D005FC527 /* ProfileViewController.m */,
+				F898A7941B71149F005FC527 /* ProfileSettingsViewController.h */,
+				F898A7951B71149F005FC527 /* ProfileSettingsViewController.m */,
 			);
 			name = ProfilePage;
 			sourceTree = "<group>";
@@ -292,6 +297,7 @@
 				F898A78D1B711445005FC527 /* CreateListViewController.m in Sources */,
 				F898A78A1B711408005FC527 /* CategoriesViewController.m in Sources */,
 				F898A7901B71145D005FC527 /* ActivityViewController.m in Sources */,
+				F81A8CBE1B7E57C20041A7F8 /* InnerCreateListViewController.m in Sources */,
 				F898A7961B71149F005FC527 /* ProfileSettingsViewController.m in Sources */,
 				F85CA8921B7009E300308E57 /* main.m in Sources */,
 				F80BB0AF1B7A686500A69C34 /* ListsViewController.m in Sources */,
