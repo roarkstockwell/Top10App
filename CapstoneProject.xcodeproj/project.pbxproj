@@ -19,7 +19,6 @@
 		F85CA8AC1B7009E400308E57 /* CapstoneProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F85CA8AB1B7009E400308E57 /* CapstoneProjectTests.m */; };
 		F898A78A1B711408005FC527 /* CategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F898A7891B711408005FC527 /* CategoriesViewController.m */; };
 		F898A78D1B711445005FC527 /* CreateListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F898A78C1B711445005FC527 /* CreateListViewController.m */; };
-		F898A7901B71145D005FC527 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F898A78F1B71145D005FC527 /* ActivityViewController.m */; };
 		F898A7931B71147D005FC527 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F898A7921B71147D005FC527 /* ProfileViewController.m */; };
 		F898A7961B71149F005FC527 /* ProfileSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F898A7951B71149F005FC527 /* ProfileSettingsViewController.m */; };
 /* End PBXBuildFile section */
@@ -58,8 +57,6 @@
 		F898A7891B711408005FC527 /* CategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesViewController.m; sourceTree = "<group>"; };
 		F898A78B1B711445005FC527 /* CreateListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateListViewController.h; sourceTree = "<group>"; };
 		F898A78C1B711445005FC527 /* CreateListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateListViewController.m; sourceTree = "<group>"; };
-		F898A78E1B71145D005FC527 /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
-		F898A78F1B71145D005FC527 /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
 		F898A7911B71147D005FC527 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		F898A7921B71147D005FC527 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		F898A7941B71149F005FC527 /* ProfileSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileSettingsViewController.h; sourceTree = "<group>"; };
@@ -108,15 +105,6 @@
 			name = CreateListPage;
 			sourceTree = "<group>";
 		};
-		F80BB0761B7A584D00A69C34 /* ActivityPage */ = {
-			isa = PBXGroup;
-			children = (
-				F898A78E1B71145D005FC527 /* ActivityViewController.h */,
-				F898A78F1B71145D005FC527 /* ActivityViewController.m */,
-			);
-			name = ActivityPage;
-			sourceTree = "<group>";
-		};
 		F80BB0A91B7A58D100A69C34 /* ProfilePage */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,7 +142,6 @@
 				F85CA8961B7009E300308E57 /* ViewController.h */,
 				F85CA8971B7009E300308E57 /* ViewController.m */,
 				F80BB0741B7A57A600A69C34 /* CategoriesPage */,
-				F80BB0761B7A584D00A69C34 /* ActivityPage */,
 				F80BB0751B7A583000A69C34 /* CreateListPage */,
 				F80BB0A91B7A58D100A69C34 /* ProfilePage */,
 				F85CA8991B7009E300308E57 /* Main.storyboard */,
@@ -240,6 +227,7 @@
 				TargetAttributes = {
 					F85CA88B1B7009E300308E57 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 8S9P4HU3BS;
 					};
 					F85CA8A41B7009E400308E57 = {
 						CreatedOnToolsVersion = 6.4;
@@ -296,7 +284,6 @@
 				F898A7931B71147D005FC527 /* ProfileViewController.m in Sources */,
 				F898A78D1B711445005FC527 /* CreateListViewController.m in Sources */,
 				F898A78A1B711408005FC527 /* CategoriesViewController.m in Sources */,
-				F898A7901B71145D005FC527 /* ActivityViewController.m in Sources */,
 				F81A8CBE1B7E57C20041A7F8 /* InnerCreateListViewController.m in Sources */,
 				F898A7961B71149F005FC527 /* ProfileSettingsViewController.m in Sources */,
 				F85CA8921B7009E300308E57 /* main.m in Sources */,
@@ -427,9 +414,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CapstoneProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -437,9 +427,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CapstoneProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

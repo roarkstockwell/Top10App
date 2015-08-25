@@ -9,7 +9,9 @@
 #import "CategoriesViewController.h"
 
 @interface CategoriesViewController ()
+@property (strong, nonatomic) IBOutlet UITableView *categoriesTableView;
 @property (strong, nonatomic) IBOutlet UINavigationBar *navBar;
+@property (strong, nonatomic) IBOutlet UISearchBar *searchBar;
 
 @end
 
