@@ -9,6 +9,11 @@
 #import "CreateListViewController.h"
 
 @interface CreateListViewController ()
+@property (strong, nonatomic) IBOutlet UILabel *nameListLabel;
+@property (strong, nonatomic) IBOutlet UITextField *createListTextField;
+@property (strong, nonatomic) IBOutlet UILabel *chooseCategoryLabel;
+@property (strong, nonatomic) IBOutlet UIPickerView *categoryPicker;
+@property (strong, nonatomic) IBOutlet UIButton *createListButton;
 
 @end
 

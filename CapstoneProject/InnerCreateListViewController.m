@@ -9,7 +9,10 @@
 #import "InnerCreateListViewController.h"
 
 @interface InnerCreateListViewController ()
-
+@property (strong, nonatomic) IBOutlet UIImageView *listNumber;
+@property (strong, nonatomic) IBOutlet UITextField *enterListName;
+@property (strong, nonatomic) IBOutlet UIImageView *EnterImage;
+@property (strong, nonatomic) IBOutlet UITextView *descTextView;
 @end
 
 @implementation InnerCreateListViewController

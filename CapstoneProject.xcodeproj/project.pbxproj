@@ -17,6 +17,9 @@
 		F85CA89D1B7009E400308E57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85CA89C1B7009E400308E57 /* Images.xcassets */; };
 		F85CA8A01B7009E400308E57 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F85CA89E1B7009E400308E57 /* LaunchScreen.xib */; };
 		F85CA8AC1B7009E400308E57 /* CapstoneProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F85CA8AB1B7009E400308E57 /* CapstoneProjectTests.m */; };
+		F8623FA61B8D0AF300D9A742 /* CategoriesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8623FA51B8D0AF300D9A742 /* CategoriesTableViewCell.m */; };
+		F8623FAC1B8D0C0F00D9A742 /* ListsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8623FAB1B8D0C0F00D9A742 /* ListsTableViewCell.m */; };
+		F8623FAF1B8D0CCA00D9A742 /* ProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8623FAE1B8D0CC900D9A742 /* ProfileTableViewCell.m */; };
 		F898A78A1B711408005FC527 /* CategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F898A7891B711408005FC527 /* CategoriesViewController.m */; };
 		F898A78D1B711445005FC527 /* CreateListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F898A78C1B711445005FC527 /* CreateListViewController.m */; };
 		F898A7931B71147D005FC527 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F898A7921B71147D005FC527 /* ProfileViewController.m */; };
@@ -53,6 +56,12 @@
 		F85CA8A51B7009E400308E57 /* CapstoneProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapstoneProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85CA8AA1B7009E400308E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F85CA8AB1B7009E400308E57 /* CapstoneProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CapstoneProjectTests.m; sourceTree = "<group>"; };
+		F8623FA41B8D0AF300D9A742 /* CategoriesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesTableViewCell.h; sourceTree = "<group>"; };
+		F8623FA51B8D0AF300D9A742 /* CategoriesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesTableViewCell.m; sourceTree = "<group>"; };
+		F8623FAA1B8D0C0F00D9A742 /* ListsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListsTableViewCell.h; sourceTree = "<group>"; };
+		F8623FAB1B8D0C0F00D9A742 /* ListsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListsTableViewCell.m; sourceTree = "<group>"; };
+		F8623FAD1B8D0CC900D9A742 /* ProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTableViewCell.h; sourceTree = "<group>"; };
+		F8623FAE1B8D0CC900D9A742 /* ProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewCell.m; sourceTree = "<group>"; };
 		F898A7881B711408005FC527 /* CategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesViewController.h; sourceTree = "<group>"; };
 		F898A7891B711408005FC527 /* CategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesViewController.m; sourceTree = "<group>"; };
 		F898A78B1B711445005FC527 /* CreateListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateListViewController.h; sourceTree = "<group>"; };
@@ -85,9 +94,13 @@
 			isa = PBXGroup;
 			children = (
 				F898A7881B711408005FC527 /* CategoriesViewController.h */,
+				F8623FA41B8D0AF300D9A742 /* CategoriesTableViewCell.h */,
+				F8623FA51B8D0AF300D9A742 /* CategoriesTableViewCell.m */,
 				F898A7891B711408005FC527 /* CategoriesViewController.m */,
 				F80BB0AD1B7A686500A69C34 /* ListsViewController.h */,
 				F80BB0AE1B7A686500A69C34 /* ListsViewController.m */,
+				F8623FAA1B8D0C0F00D9A742 /* ListsTableViewCell.h */,
+				F8623FAB1B8D0C0F00D9A742 /* ListsTableViewCell.m */,
 				F81A8CB91B7E56D00041A7F8 /* InnerListViewController.h */,
 				F81A8CBA1B7E56D00041A7F8 /* InnerListViewController.m */,
 			);
@@ -110,6 +123,8 @@
 			children = (
 				F898A7911B71147D005FC527 /* ProfileViewController.h */,
 				F898A7921B71147D005FC527 /* ProfileViewController.m */,
+				F8623FAD1B8D0CC900D9A742 /* ProfileTableViewCell.h */,
+				F8623FAE1B8D0CC900D9A742 /* ProfileTableViewCell.m */,
 				F898A7941B71149F005FC527 /* ProfileSettingsViewController.h */,
 				F898A7951B71149F005FC527 /* ProfileSettingsViewController.m */,
 			);
@@ -280,15 +295,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F85CA8981B7009E300308E57 /* ViewController.m in Sources */,
+				F8623FAC1B8D0C0F00D9A742 /* ListsTableViewCell.m in Sources */,
 				F85CA8951B7009E300308E57 /* AppDelegate.m in Sources */,
 				F898A7931B71147D005FC527 /* ProfileViewController.m in Sources */,
 				F898A78D1B711445005FC527 /* CreateListViewController.m in Sources */,
 				F898A78A1B711408005FC527 /* CategoriesViewController.m in Sources */,
 				F81A8CBE1B7E57C20041A7F8 /* InnerCreateListViewController.m in Sources */,
+				F8623FAF1B8D0CCA00D9A742 /* ProfileTableViewCell.m in Sources */,
 				F898A7961B71149F005FC527 /* ProfileSettingsViewController.m in Sources */,
 				F85CA8921B7009E300308E57 /* main.m in Sources */,
 				F80BB0AF1B7A686500A69C34 /* ListsViewController.m in Sources */,
 				F81A8CBB1B7E56D00041A7F8 /* InnerListViewController.m in Sources */,
+				F8623FA61B8D0AF300D9A742 /* CategoriesTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

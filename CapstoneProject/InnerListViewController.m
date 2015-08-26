@@ -9,6 +9,10 @@
 #import "InnerListViewController.h"
 
 @interface InnerListViewController ()
+@property (strong, nonatomic) IBOutlet UIImageView *listNumber;
+@property (strong, nonatomic) IBOutlet UILabel *listLabel;
+@property (strong, nonatomic) IBOutlet UIImageView *listImage;
+@property (strong, nonatomic) IBOutlet UITextView *listDesc;
 
 @end
 

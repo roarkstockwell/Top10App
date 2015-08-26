@@ -9,6 +9,7 @@
 #import "ListsViewController.h"
 
 @interface ListsViewController ()
+@property (strong, nonatomic) IBOutlet UITableView *listsTableView;
 
 @end
 
