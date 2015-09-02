@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "AppearenceController.h"
+#import <Parse/Parse.h>
+#import "Lists.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // [Optional] Power your app with Local Datastore. For more info, go to
+    
+    [Lists registerSubclass];
+    
+    [Parse enableLocalDatastore];
+    
+    // Initialize Parse.
+    [Parse setApplicationId:@"OYNxErh2RfBbxThPes4j9H8gzLgHC0NU37KJICMs"
+                  clientKey:@"LC4NcM7tsDFHznxomWwZ2Sm3JDXJvj7KkOeuuL09"];
+    
+    // [Optional] Track statistics around application opens.
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    [AppearenceController initializeAppearance];
+    
     return YES;
 }
 
